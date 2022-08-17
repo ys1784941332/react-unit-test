@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试 TodoContent 正确匹配快照 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-card ant-card-bordered"
+    style="width: 400px;"
+  >
+    <div
+      class="ant-card-head"
+    >
+      <div
+        class="ant-card-head-wrapper"
+      >
+        <div
+          class="ant-card-head-title"
+        >
+          这是一个标题
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-card-body"
+    >
+      <textarea
+        class="ant-input"
+        rows="4"
+      >
+        这是一个内容
+      </textarea>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`测试定制对象的快照内容 正确匹配快照 1`] = `
+Object {
+  "age": 10,
+  "name": "lisi",
+}
+`;
